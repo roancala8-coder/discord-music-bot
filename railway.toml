@@ -1,2 +1,5 @@
+[build]
+nixPackages = ["ffmpeg"]
+
 [deploy]
 startCommand = "python main.py"
