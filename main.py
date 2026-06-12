@@ -392,4 +392,4 @@ async def on_ready():
 TOKEN = os.getenv("DISCORD_TOKEN")
 if not TOKEN:
     raise ValueError("DISCORD_TOKEN environment variable not set")
-bot.run(MTUxMzE2NTE1MDk0NzkwMTU1MA.G7u0sd.n5EsevQ8EXhdpTjZAkTZNRT6DFEFIBuYujWTbg)
+bot.run(TOKEN)
